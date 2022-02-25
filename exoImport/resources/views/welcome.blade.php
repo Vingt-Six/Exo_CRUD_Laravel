@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('content')
+    @include('partials.allmembers')
+    @include('partials.homme')
+    @include('partials.femme')
+    @include('partials.homme18_24')
+    @include('partials.femme18_24')
+    @include('partials.autres')
+@endsection
